@@ -1,0 +1,29 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "train",
+            "type": "python",
+            "python": "/home/pannx/anaconda3/envs/IPCenv/bin/python",
+            "request": "launch",
+            "program": "/home/pannx/deeplearning/Ass3/train.py",
+            "console": "integratedTerminal",
+            "justMyCode": false,
+            "args": [
+            "--dataset_name","restaurant_sup",
+            "--model_name_or_path", "./roberta-base",
+            "--max_seq_length", "128",
+            "--per_device_train_batch_size","64",
+            "--learning_rate" ,"2e-5",
+            "--num_train_epochs", "20",
+            "--output_dir", "./result/$DATASET_NAME/"
+        ],
+            "env": {
+                "CUDA_VISIBLE_DEVICES": "0"
+            }
+        }
+    ]
+}

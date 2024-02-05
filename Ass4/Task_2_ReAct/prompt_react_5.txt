@@ -1,0 +1,133 @@
+Interact with a household to solve a task. Here are two examples.
+You are in the middle of a room. Looking quickly around you, you see a coffeetable 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a sidetable 2, a sidetable 1, and a sofa 1.
+Your task is to: put two cellphone in sofa.
+Think: To solve the task, I need to find and take the first cellphone, then put it in sofa, then find and take the second cellphone, then put it in sofa.
+Observation: OK.
+Think: First I need to find the first cellphone. A cellphone is more likely to appear in coffeetable (1), diningtable (1), sidetable (1-2), drawer (1-4), sofa (1), dresser (1), garbagecan (1). I can check one by one, starting with coffeetable 1.
+Observation: OK.
+Action: go to coffeetable 1
+Observation: On the coffeetable 1, you see a box 1, a cellphone 3, and a plate 1.
+Action: take cellphone 3 from coffeetable 1
+Observation: You pick up the cellphone 3 from the coffeetable 1.
+Think: Now I find the first cellphone (3). Next, I need to put it in/on sofa 1.
+Observation: OK.
+Action: go to sofa 1
+Observation: On the sofa 1, you see a newspaper 2, a pillow 1, a remotecontrol 2, and a remotecontrol 1.
+Action: put cellphone 3 in/on sofa 1
+Observation: You put the cellphone 3 in/on the sofa 1.
+Think: Now I put the first cellphone in sofa. Next, I need to find the second cellphone. I have visited coffeetable (1), so the second cellphone is more likely to appear in diningtable (1), sidetable (1-2), drawer (1-4), sofa (1), dresser (1), garbagecan (1). I can check one by one, starting with coffeetable 1.
+Observation: OK.
+Action: go to diningtable 1
+Observation: On the diningtable 1, you see a cellphone 2, a keychain 2, a laptop 1, a statue 2, and a statue 1.
+Think: Now I find the second cellphone (2). Next, I need to take it.
+Observation: OK.
+Action: take cellphone 2 from diningtable 1
+Observation: You pick up the cellphone 2 from the diningtable 1.
+Think: Now I take the second cellphone (2). Next, I need to put it in/on sofa 1.
+Observation: OK.
+Action: go to sofa 1
+Observation: On the sofa 1, you see a cellphone 3, a newspaper 2, a pillow 1, a remotecontrol 2, and a remotecontrol 1.
+Action: put cellphone 2 in/on sofa 1
+Observation: You put the cellphone 2 in/on the sofa 1.
+You are in the middle of a room. Looking quickly around you, you see a armchair 2, a armchair 1, a bed 1, a countertop 1, a diningtable 1, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a laundryhamper 1, and a sidetable 1.
+Your task is to: put two creditcard in dresser.
+Think: To solve the task, I need to find and take the first creditcard, then put it in dresser, then find and take the second creditcard, then put it in dresser.
+Observation: OK.
+Think: First I need to find the first creditcard. A creditcard is more likely to appear in drawer (1-2), coutertop (1), sidetable (1), diningtable (1), armchair (1-2), bed (1). I can check one by one, starting with drawer 1.
+Observation: OK.
+Action: go to drawer 1
+Observation: The drawer 1 is closed.
+Action: open drawer 1
+Observation: You open the drawer 1. The drawer 1 is open. In it, you see a book 1, a cd 1, and a pen 1.
+Action: go to drawer 2
+Observation: The drawer 2 is closed.
+Action: open drawer 2
+Observation: You open the drawer 2. The drawer 2 is open. In it, you see nothing.
+Action: go to countertop 1
+Observation: On the countertop 1, you see a cellphone 2, a creditcard 4, a creditcard 3, a creditcard 2, a mirror 1, a pencil 2, and a pencil 1.
+Think: Now I find the first creditcard (2). Next, I need to take it. I can find the second creditcard (3) later in countertop 1.
+Observation: OK.
+Action: take creditcard 2 from countertop 1
+Observation: You pick up the creditcard 2 from the countertop 1.
+Think: Now I take the first creditcard (2). Next, I need to put it in/on dresser 1.
+Observation: OK.
+Action: go to dresser 1
+Observation: On the dresser 1, you see a mug 1, and a television 1.
+Action: put creditcard 2 in/on dresser 1
+Observation: You put the creditcard 2 in/on the dresser 1.
+Think: Now I put the first creditcard in dresser. Next, I need to find the second creditcard. I can directly go to countertop 1.
+Observation: OK.
+Action: go to countertop 1
+Observation: On the countertop 1, you see a cellphone 2, a creditcard 4, a creditcard 3, a mirror 1, a pencil 2, and a pencil 1.
+Think: Now I find the second creditcard (3). Next, I need to take it.
+Observation: OK.
+Action: take creditcard 3 from countertop 1
+Observation: You pick up the creditcard 3 from the countertop 1.
+Think: Now I take the second creditcard (3). Next, I need to put it in/on dresser 1.
+Observation: OK.
+Action: go to dresser 1
+Observation: On the dresser 1, you see a creditcard 2, a mug 1, and a television 1.
+Action: put creditcard 3 in/on dresser 1
+Observation: You put the creditcard 3 in/on the dresser 1.
+
+Here is the task.
+You are in the middle of a room. Looking quickly around you, you see a armchair 1, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a safe 1, a shelf 12, a shelf 11, a shelf 10, a shelf 9, a shelf 8, a shelf 7, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, a shelf 1, a sidetable 1, and a sofa 1.
+Your task is to: put two pillow in sofa.
+
+Plans from past attempts:
+> Think: To solve the task, I need to find and take the first pillow, then put it in sofa, then find and take the second pillow, then put it in sofa.
+OK.
+> Think: First I need to find the first pillow. A pillow is more likely to appear in shelf (1-12), drawer (1-5), cabinet (1-4), sidetable (1), dresser (1), sofa (1), armchair (1). I can check one by one, starting with shelf 1.
+OK.
+> go to shelf 1
+On the shelf 1, you see nothing.
+> go to shelf 2
+On the shelf 2, you see nothing.
+> go to shelf 3
+Nothing happens.
+> go to shelf 4
+On the shelf 4, you see nothing.
+> go to shelf 5
+On the shelf 5, you see nothing.
+> go to shelf 6
+On the shelf 6, you see a statue 3.
+> go to shelf 7
+On the shelf 7, you see nothing.
+> go to shelf 8
+On the shelf 8, you see a keychain 1.
+> take keychain 1 from shelf 8
+You pick up the keychain 1 from the shelf 8.
+> Think: Now I find the first pillow. Next, I need to put it in/on sofa 1.
+OK.
+> go to sofa 1
+On the sofa 1, you see a newspaper 3.
+> put keychain 1 in/on sofa 1
+You put the keychain 1 in/on the sofa 1.
+STATUS: FAIL
+New plan: In my previous attempt, I did not find a pillow and instead picked up a keychain. I should have checked the other shelves and drawers before moving on to the sofa. In the next attempt, I will check the left shelves and drawers before going to the sofa.
+
+> Think: First I need to find the first pillow. A pillow is more likely to appear in shelf (1-12), drawer (1-5), cabinet (1-4), sidetable (1), dresser (1), sofa (1), armchair (1). I can check one by one, starting with shelf 1.
+OK.
+> go to shelf 1
+On the shelf 1, you see nothing.
+> go to shelf 2
+On the shelf 2, you see nothing.
+> go to shelf 3
+Nothing happens.
+> go to shelf 4
+On the shelf 4, you see nothing.
+> go to shelf 5
+On the shelf 5, you see nothing.
+> go to shelf 6
+On the shelf 6, you see a statue 3.
+> go to shelf 7
+On the shelf 7, you see nothing.
+> go to shelf 8
+On the shelf 8, you see a keychain 1.
+> go to shelf 9
+On the shelf 9, you see a tissuebox 1.
+> go to shelf 10
+On the shelf 10, you see a box 3, and a cellphone 3.
+> take cellphone 3 from shelf 10
+You pick up the cellphone 3 from the shelf 10.
+>

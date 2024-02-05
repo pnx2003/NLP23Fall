@@ -1,0 +1,1 @@
+   $ \hat \mathcal {G}: = \mathcal {G} \mathcal S(\mathcal {D}, \mathcal{G})$

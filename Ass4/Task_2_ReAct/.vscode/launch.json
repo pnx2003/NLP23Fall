@@ -1,0 +1,18 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "new",
+            "type": "python",
+            "python": "/Users/panningxin/anaconda3/envs/alfword37",
+            "request": "launch",
+            "program": "/Users/panningxin/Desktop/nlp/assignment4/Task_2_ReAct/new.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+Interact with a household to solve a task. Here are two examples.
+You are in the middle of a room. Looking quickly around you, you see a coffeetable 1, a diningtable 1, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a sidetable 2, a sidetable 1, and a sofa 1.
+Your task is to: put two cellphone in sofa.
+Think: To solve the task, I need to find and take the first cellphone, then put it in sofa, then find and take the second cellphone, then put it in sofa.
+Observation: OK.
+Think: First I need to find the first cellphone. A cellphone is more likely to appear in coffeetable (1), diningtable (1), sidetable (1-2), drawer (1-4), sofa (1), dresser (1), garbagecan (1). I can check one by one, starting with coffeetable 1.
+Observation: OK.
+Action: go to coffeetable 1
+Observation: On the coffeetable 1, you see a box 1, a cellphone 3, and a plate 1.
+Action: take cellphone 3 from coffeetable 1
+Observation: You pick up the cellphone 3 from the coffeetable 1.
+Think: Now I find the first cellphone (3). Next, I need to put it in/on sofa 1.
+Observation: OK.
+Action: go to sofa 1
+Observation: On the sofa 1, you see a newspaper 2, a pillow 1, a remotecontrol 2, and a remotecontrol 1.
+Action: put cellphone 3 in/on sofa 1
+Observation: You put the cellphone 3 in/on the sofa 1.
+Think: Now I put the first cellphone in sofa. Next, I need to find the second cellphone. I have visited coffeetable (1), so the second cellphone is more likely to appear in diningtable (1), sidetable (1-2), drawer (1-4), sofa (1), dresser (1), garbagecan (1). I can check one by one, starting with coffeetable 1.
+Observation: OK.
+Action: go to diningtable 1
+Observation: On the diningtable 1, you see a cellphone 2, a keychain 2, a laptop 1, a statue 2, and a statue 1.
+Think: Now I find the second cellphone (2). Next, I need to take it.
+Observation: OK.
+Action: take cellphone 2 from diningtable 1
+Observation: You pick up the cellphone 2 from the diningtable 1.
+Think: Now I take the second cellphone (2). Next, I need to put it in/on sofa 1.
+Observation: OK.
+Action: go to sofa 1
+Observation: On the sofa 1, you see a cellphone 3, a newspaper 2, a pillow 1, a remotecontrol 2, and a remotecontrol 1.
+Action: put cellphone 2 in/on sofa 1
+Observation: You put the cellphone 2 in/on the sofa 1.
+You are in the middle of a room. Looking quickly around you, you see a cabinet 20, a cabinet 19, a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.
+Your task is to: put two saltshaker in drawer.
+Think: To solve the task, I need to find and take the first saltshaker, then put it in drawer, then find and take the second salkshaker, then put it in drawer.
+Observation: OK.
+Think: First I need to find the first saltshaker. A saltshaker is more likely to appear in drawer (1-3), countertop (1-3), shelf (1-3), cabinet (1-20). I can check one by one, starting with drawer 1.
+Observation: OK.
+Action: go to drawer 1
+Observation: The drawer 1 is closed.
+Action: open drawer 1
+Observation: You open the drawer 1. The drawer 1 is open. In it, you see nothing.
+Action: go to drawer 2
+Observation: The drawer 2 is closed.
+Action: open drawer 2
+Observation: You open the drawer 2. The drawer 2 is open. In it, you see a dishsponge 3.
+Action: go to drawer 3
+Observation: The drawer 3 is closed.
+Action: open drawer 3
+Observation: You open the drawer 3. The drawer 3 is open. In it, you see a fork 2, a ladle 2, and a spoon 1.
+Action: go to countertop 1
+Observation: On the countertop 1, you see a bowl 1, a butterknife 1, a mug 2, a pan 1, a papertowelroll 1, a spatula 1, and a statue 3.
+Action: go to countertop 2
+Observation: On the countertop 2, you see a bread 1, a butterknife 2, a dishsponge 2, a fork 1, a kettle 1, a knife 1, a ladle 1, a spatula 3, a spoon 2, a statue 2, and a vase 3.
+Action: go to countertop 3
+Observation: On the countertop 3, you see a bowl 2, a houseplant 1, a knife 2, a peppershaker 1, a saltshaker 4, a soapbottle 1, a spatula 2, and a tomato 3.
+Think: Now I find the first saltshaker (4). Next, I need to take it.
+Observation: OK.
+Action: take saltshaker 4 from countertop 3
+Observation: You pick up the saltshaker 4 from the countertop 3.
+Think: Now I take the first saltshaker (4). Next, I need to put it in/on drawer 1.
+Observation: OK.
+Action: go to drawer 1
+Observation: The drawer 1 is open. In it, you see nothing.
+Action: put saltshaker 4 in/on drawer 1
+Observation: You put the saltshaker 4 in/on the drawer 1.
+Think: Now I put the first saltshaker in drawer. Next, I need to find the second saltshaker. I have visited drawer (1-3), countertop (1-3), so the second saltshaker is more likely to appear in shelf (1-3), cabinet (1-20). I can check one by one, starting with shelf 1.
+Observation: OK.
+Action: go to shelf 1
+Observation: On the shelf 1, you see a statue 1.
+Action: go to shelf 2
+Observation: On the shelf 2, you see a dishsponge 1, and a vase 1.
+Action: go to shelf 3
+Observation: On the shelf 3, you see nothing.
+Action: go to cabinet 1
+Observation: The cabinet 1 is closed.
+Action: open cabinet 1
+Observation: You open the cabinet 1. The cabinet 1 is open. In it, you see nothing.
+Action: go to cabinet 2
+Observation: Nothing happens.
+Action: look
+Observation: You are facing the cabinet 2, and cabinet 1. Next to it, you see nothing.
+Action: go to cabinet 3
+Observation: The cabinet 3 is closed.
+Action: open cabinet 3
+Observation: You open the cabinet 3. The cabinet 3 is open. In it, you see a saltshaker 3, and a saltshaker 2.
+Think: Now I find the second saltshaker (2). Next, I need to take it.
+Observation: OK.
+Action: take saltshaker 2 from cabinet 3
+Observation: You pick up the saltshaker 2 from the cabinet 3.
+Think: Now I take the second saltshaker (2). Next, I need to put it in/on drawer 1.
+Observation: OK.
+Action: go to drawer 1
+Observation: The drawer 1 is open. In it, you see a saltshaker 4.
+Action: put saltshaker 2 in/on drawer 1
+Observation: You put the saltshaker 2 in/on the drawer 1.
+
+Here is the task.
+You are in the middle of a room. Looking quickly around you, you see a armchair 1, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a safe 1, a shelf 12, a shelf 11, a shelf 10, a shelf 9, a shelf 8, a shelf 7, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, a shelf 1, a sidetable 1, and a sofa 1.
+Your task is to: put two pillow in sofa.
+> Think: To solve the task, I need to find and take the first pillow, then put it on the sofa, then find and take the second pillow, then put it on the sofa.
+OK.
+> Think: First I need to find the first pillow. A pillow is more likely to appear on a shelf (1-12), in a drawer (1-5), on a sidetable (1), or on a sofa (1). I can check one by one, starting with shelf 1.
+OK.
+> go to shelf 1
+On the shelf 1, you see nothing.
+> go to shelf 2
+On the shelf 2, you see nothing.
+> go to shelf 3
+Nothing happens.
+>
